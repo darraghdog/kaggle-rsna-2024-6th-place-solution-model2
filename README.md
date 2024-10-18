@@ -8,11 +8,9 @@ Competiton website: [link](https://www.kaggle.com/competitions/rsna-2024-lumbar-
 Our solution is an ensemble of multiple models which train on study or series level for each individual intervertebral disc level.
 Crops of the original MRI are isolated in a first stage and the severity of the condition is predicted using the sequence of crops. Final results are aggregated using an MLP model that directly optimizes the competition metric.
 
-![](overview.png)
-
 ## Environment
 
-Ensure to have a GPU with at least 24GB memory, along with a recent version of pytorch installed. Ideally inside a recent nividia pytorch container from the [ngc catalog](https://catalog.ngc.nvidia.com/orgs/nvidia/containers/pytorch).
+Ensure to have a 4 node GPU machine with at least 24GB memory each, along with a recent version of pytorch installed. Ideally inside a recent nividia pytorch container from the [ngc catalog](https://catalog.ngc.nvidia.com/orgs/nvidia/containers/pytorch).
 After this, up the environment with,
 ```
 pip install -r requirements_ngc.txt
