@@ -1,0 +1,10 @@
+albucore==0.0.16
+albumentations==1.4.11
+opencv-python==4.5.5.64
+timm==1.0.7
+pydicom==2.4.4
+shapely
+seaborn
+pytorchvideo
+imagesize
+transformers
